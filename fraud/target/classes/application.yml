@@ -5,7 +5,11 @@ spring:
     name: fraud
   datasource:
     password: root
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/fraud
+=======
+    url: jdbc:postgresql://localhost:5050/fraud
+>>>>>>> 6deaa8b (Initial commit)
     username: postgres
   jpa:
     hibernate:

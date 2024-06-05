@@ -5,7 +5,11 @@ spring:
     name: notification
   datasource:
     password: root
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/notification
+=======
+    url: jdbc:postgresql://localhost:5050/notification
+>>>>>>> 6deaa8b (Initial commit)
     username: postgres
   jpa:
     hibernate:

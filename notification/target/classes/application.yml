@@ -5,7 +5,11 @@ spring:
     name: notification
   datasource:
     password: root
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/notification
+=======
+    url: jdbc:postgresql://localhost:5050/notification
+>>>>>>> 6deaa8b (Initial commit)
     username: postgres
   jpa:
     hibernate:
@@ -23,4 +27,16 @@ eureka:
     service-url:
       defaultZone : http://localhost:8761/eureka
     fetch-registry: true
+<<<<<<< HEAD
     register-with-eureka: true
+=======
+    register-with-eureka: true
+
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queue:
+    notification : notification.queue
+  routing-keys :
+    internal-notification : internal.notification.routing-key
+>>>>>>> 6deaa8b (Initial commit)

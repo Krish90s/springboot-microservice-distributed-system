@@ -5,7 +5,11 @@ spring:
     name: customer
   datasource:
     password: root
+<<<<<<< HEAD
     url: jdbc:postgresql://localhost:5432/customer
+=======
+    url: jdbc:postgresql://localhost:5050/customer
+>>>>>>> 6deaa8b (Initial commit)
     username: postgres
   jpa:
     hibernate:
